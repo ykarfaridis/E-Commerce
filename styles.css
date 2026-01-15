@@ -232,6 +232,7 @@ margin-bottom: 24px;
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book{
@@ -275,4 +276,14 @@ margin-bottom: 24px;
     text-decoration: line-through;
     padding-right: 6px;
     color: grey;
+}
+
+/* LATEST BOOKS */
+
+#latest{
+
+}
+
+.book__price{
+    font-weight: bold;
 }
